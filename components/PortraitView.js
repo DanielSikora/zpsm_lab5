@@ -1,8 +1,8 @@
 /* eslint-disable */
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
 
-import MyButton from './MyButton';
+import MyButton from "./MyButton";
 
 const PortraitView = ({ count, buttons }) => {
 
@@ -13,7 +13,7 @@ const PortraitView = ({ count, buttons }) => {
       </View>
 
       {buttons.map((button, index) => {
-        return(
+        return (
           <MyButton key={index} button={button}></MyButton>
         );
       })}
@@ -24,22 +24,22 @@ const PortraitView = ({ count, buttons }) => {
 
 const styles = StyleSheet.create({
   container: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    flexDirection: 'row'
+    display: "flex",
+    flexWrap: "wrap",
+    flexDirection: "row",
   },
   display: {
-    backgroundColor: '#535457',
-    height: 270,
-    display: 'flex',
-    justifyContent: 'flex-end',
-    alignItems: 'flex-end',
-    minWidth: '100%'
+    backgroundColor: "#535457",
+    height: 320,
+    display: "flex",
+    justifyContent: "flex-end",
+    alignItems: "flex-end",
+    minWidth: "100%",
   },
   displayText: {
-    color: '#fff',
-    fontSize: 80
-  }
+    color: "#fff",
+    fontSize: 80,
+  },
 });
 
 export default PortraitView;
