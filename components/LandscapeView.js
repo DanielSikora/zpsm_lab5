@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   display: {
-    backgroundColor: "#535457",
+    backgroundColor: "#575759",
     height: 125,
     display: "flex",
     justifyContent: "flex-end",
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     minWidth: "100%",
   },
   displayText: {
-    color: "#fff",
+    color: "#f5f4f4",
     fontSize: 50,
   },
 });
